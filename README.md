@@ -10,7 +10,7 @@ docker run -p <port>:8000 opentypefont/websocket-test-server
 ```sh
 docker run -e HOST=<host> -e PORT=<port> -p <port>:<port> opentypefont/websocket-test-server
 ```
-### Or
+### Or run manually
 - Linux/macOS
 ```sh
 go build -o server main.go
